@@ -12,8 +12,13 @@ public class Program01 {
 		} else if (numero1 < numero2) {
 			System.out.println(numero1 + " menor que " + numero2);
 		} else if (numero1 == numero2) {
-			System.out.println(numero1 + " igual que " + numero2);
+			System.out.println(numero1 + " igual a " + numero2);
 		}
+	}
+	
+	public static void mediaAritmetica() {
+		double media = (numero1 + numero2) / 2;
+		System.out.println("A média aritmética de " + numero1 + " + " + numero2 + " é igual a " + media);
 	}
 	
 	public static void main(String[] args) {
@@ -27,6 +32,7 @@ public class Program01 {
 		numero2 = sc.nextInt();
 
 		verificaNumero();
+		mediaAritmetica();
 		
 		sc.close();
 	}
