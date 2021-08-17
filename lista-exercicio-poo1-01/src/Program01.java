@@ -21,6 +21,7 @@ public class Program01 {
 		System.out.println("A média aritmética de " + numero1 + " + " + numero2 + " é igual a " + media);
 	}
 	
+	
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
